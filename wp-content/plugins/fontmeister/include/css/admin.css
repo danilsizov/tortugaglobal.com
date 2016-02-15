@@ -1,0 +1,113 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dosis', Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 0.5em;
+}
+h3.hndle { text-transform: none; letter-spacing: normal; }
+
+.fm-wrapper { width: 80%; max-width: 1200px; min-width: 800px; font-family: Tahoma, Geneva, sans-serif; display: inline-block; }
+.fm-fonts-for, .fm-fonts-for.hidden { display: none; visibility: hidden; }
+.fm-fonts-for li { padding: 8px 0; border-bottom: 1px dotted #ccc; margin-bottom: 0; position: relative; }
+.fm-group-key-position-1, .fm-fonts-for.shown { display: block; visibility: visible; }
+.fm-wrapper input[type="checkbox"] { margin-right: 5px; }
+.fm-box {
+	width: 40%;
+	margin: 10px 4% 10px 0;
+	float: left;
+	height: 150px;
+	background: #eee;
+	background: -moz-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	padding: 10px 1%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.fm-field {
+	margin: 8px 0;
+}
+.fm-field input[type="text"] { width: 200px; }
+input.fm-submit-button {
+	padding: 10px 15px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	min-width: 120px;
+	font-family: 'Dosis', Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	background: #6af;
+	background: -moz-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+	color: #fff;
+	float: none;
+	border-radius: 3px;
+}
+input.fm-submit-button:hover { color: #fff; }
+.fm-button-bar {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 0;
+	border-top: 1px dotted #ccc;
+	margin-top: 1em;
+}
+.fm-font-container {
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	min-height: 320px;
+}
+#fm-font-stack li {
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	font-size: 18px;
+	line-height: 50px;
+	background: #eee;
+	background: -moz-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	margin-bottom: 0;
+}
+#fm-font-stack li.selected {
+	color: #fff;
+	background: #6af;
+	background: -moz-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+}
+.fm-stack-meta { float: right; font-size: 12px;}
+.fm-font-preview { width: 65%; float: left; }
+.fm-font-stub, .fm-font-variants, .fm-font-subsets, .fm-font-variants-files, .fm-font-family-id { display: none; }
+#fm-font-details { width: 32%; float: right; padding: 10px; line-height: 1.3em; }
+#fm-font-stack { padding: 10px; margin: 0;}
+.fm-prev-add { float: right; }
+em {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 1.2em; }
+.fm-launch-preview { width: 20px; height: 20px; display: inline-block; background: url(../icons/Controls-20.png) 0 0; text-decoration: none; opacity: 0.5; line-height: 20px; }
+.fm-add-font { width: 20px; height: 20px; display: inline-block; background: url(../icons/Controls-20.png) 0 -20px; text-decoration: none; opacity: 0.5; line-height: 20px; }
+.fm-download-font { width: 20px; height: 20px; display: inline-block; background: url(../icons/Controls-20.png) 0 -60px; text-decoration: none; opacity: 0.5; line-height: 20px; }
+.fm-delete-download { width: 20px; height: 20px; display: inline-block; background: url(../icons/Controls-20.png) 0 -80px; text-decoration: none; opacity: 0.5; line-height: 20px; }
+.fm-remove-font { width: 20px; height: 20px; display: inline-block; background: url(../icons/Controls-20.png) 0 -40px; text-decoration: none; opacity: 0.5; line-height: 20px; }
+.fm-launch-preview:hover, .fm-add-font:hover, .fm-remove-font:hover, .fm-download-font:hover, .fm-delete-download:hover { opacity: 1; }
+.fm-main-title { padding: 0.3em 0 0.5em 64px; background: url(../icons/FontMeister-48x32.png) no-repeat 0 0;}
+.fm-gf-title { }
+.fm-variant-subset { display: block; }
+.fm-variant-subset .fm-all-variants { width: 48%; float: left; }
+.fm-variant-subset .fm-all-subsets { width: 48%; float: right; }
+#fm-font-selectors { width: 100%; margin: 10px 0;}
+.fm-selector { width: 100%; display: inline-block; }
+#fm-overlay { position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #fff; opacity: 0.5; visibility: hidden;}
+
+.fm-all-variants .selectors, .fm-variant-font-selector { float: right; }
+.fm-variant-list li { display: inline-block; width: 100%; }
+.fm-font-wip {
+	opacity: 0.9;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #fff url(../icons/downloading-dots.gif) no-repeat center center;
+}

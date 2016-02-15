@@ -1,0 +1,231 @@
+/* I've try to make this more clean, light, and compatible as possible */
+/* !important, in some class/id/selector, is required to overwrite wp rules */
+
+/* Remove some element if screen is minor than 1024px */
+@media only screen and (max-width : 979px) {
+    .scrollup, #text-resizer, .ace_search.right {
+        display: none !important;
+    }
+	.ace_gutter, .ace_scroller {
+		top: 0 !important;
+	}
+	#my_custom_css {
+		font-size: 14px !important;
+		padding-bottom: 0 !important;
+	}
+	#my-custom-css > .button-primary {
+		background-image: none !important;
+		font-size: 15px !important;
+		height: 25px !important;
+		line-height: 15px !important;
+		padding: 0 15px !important;
+		top: 50px !important;
+	}
+	#thememenu, #backup {
+		margin-right: 5px !important;		
+	}
+	#thememenu, #backup, #invisibles, #margin, #linenumbers, #disablebackup, #basicautocomplete {
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+	}
+}
+/* Scroll ToTop */
+.scrollup,.scrollup:hover,.scrollup:visited,.scrollup:focus {
+	color: #fff;
+	box-shadow: none;
+}
+.scrollup {
+    background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 50% !important;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	position: fixed;
+	right: 20px;
+	bottom: 5px;
+	display: none;
+	z-index: 10000;
+}
+.wrap > #h2left {
+	float: left;
+}
+#tools {
+	margin: 10px 0;
+	height: 20px;
+}
+input {
+	vertical-align: middle !important;
+}
+label {
+    cursor: default !important;
+}
+#advanced {
+	display: none;
+}
+#backup > input {
+    background-position: 95% center !important;
+    background-repeat: no-repeat !important;
+    padding: 0 30px 0 10px !important;
+}
+#backup > .button {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABVklEQVQ4jY3TT0tVURQF8J+vB4lESMkbi4QIQQMnQUioOGgg+AFq6ED8BkbkrIkjkbCguZEz/+BAHEqKhAPNQKUMLUGeTlS0EG1w9ovrRfQt2Bzuvnuts/c659RIKKATPWhFI+pwhj2sYQ6fcCCHFizjooo4RH9eYKVKcjbaKuQCinnFKvCfcyvaeoj7VRBPMYhv+F0RmMAAPuI4creD8Be7mMc7vMFzychlqMEPyfVNTOELdnAUrZZwHv9KuBfC3ytt9cYu15nWhW6M4WV+rq94hj5MXyF2jGaMxPd2llxEPWawgEkMoxxzlmMU0ollVxUP+jCEO7nOHqMBHUHqwqMQ/BA127CIdrzGEv5EqyWM3+DNSRFNmJVcHsWq5PIB1qW3AHdRK51IOXJb8CKzazbeu3xL30b+lyvQHAU/cyL72MCDmwSyKElP+imeBLmAVzjB52zxP6oLfiu3RGvKAAAAAElFTkSuQmCC") !important;
+}
+#backup > .button-secondary {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhUlEQVR42pWTIUhDURSGH2IQEYPBYDCKmEVMIiJiMCzIMIlJxGAwWBdMBpElk5gMm7i3TZwMkSEiIiILsjBERGQY5AUxDMPQ75fz4O3xxOeDj3vvufecd87573Ucvkql0um6bgL28vl8lfGN0YMG3EAa26QT9bE5AnX4isFFLpfrDweoxXT2yYQD1P8TgFKO2gJgWGbjKWaAW/UqnMEzzMOi0oMHDjUZP+HDStyXI+MKXEYFUPRaoVDYggWYgHF1HpZgl/0XO3cSLmHVJItTwmNUCfcYZ2BD6VnaQSePvVP1CgnnWJ+FM3jF2GI8J+31YrE4xXrUx4InUqlURzab7cO2Jj/Odf8EkJM17TfZmhweZH7I/E5ByGRIPWG9qRKuYRp2pEBEEA+nHpVq66pdcc2PHbv3kuyAeRLGfFSCqZFkPhC6tWXeUJdj2rb+6H7a0m4EbFWV4yuhhmX403tUCaVSqTdwD8qBcq7aFNGzpmHDUoLUZ3Wh1EBTa1s1K229SDVU0n4DdpZf1EjbaRYAAAAASUVORK5CYII=") !important;
+}
+#erase, #close {
+	margin-top: 5px;
+	float: right;
+}
+#erase > input.button-primary {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAACB0RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgTVi7kSokAAAAFnRFWHRDcmVhdGlvbiBUaW1lADExLzA1LzA33bqJ2wAAAp9JREFUeJxVk8tr1FcUxz/3/n55VFMT8gCtQ6uLUBqqCCbiSgqFgpa2mVIEQUo2QnFZioj0QQVduOhf0FXBnTQDpVJ3RkTETqXkYTudjRknhj6m6TiTYfL73XNOF7+ZMHM253Lvh/M9j3ucmdFry2feOOoGB7/GR7Pmo5yqoMlOVZOdoiU7X83dfbbcy7veAKv5Y4v4aL69WSGtbyEi2YOPiPaO4EbHIYTCybuVfF+Ayo3Phhs/L5XTrX9y29WniMHUhwtMX/4GQylf/5Q/C98RAX5sAoaGq63J3PQ73z9sOzNjNX9sMTTq883qU4JBMHjrUY2fzhyhFuDs7cfcOrGfAzHEDtzLY7g4Lpx6+HferX40O2eqj+prj0kNpvILzFz/FtTAFFMFU1Bl5YtP+OuHmww4kNEJnNkJrzvta+3NCtJRPnzxcxDFVDAR6HhT5bULl9hMM863mlhIr8Vu+KWZtL6FAAK8WPqRRhRlHeo2uOM1BJqacT4kpPHQjFe1gyKCkWUdHXqdqfwCmDH5wcdMvncegIl3z5G+cpghl3GYEVQPetVsVN1h1n/7tVO3ZWWo7J5rv6/gHLu8qeA1hA18ROee1sY6dOcvWQDDQJXGxjqDXRCHimx4bTWfRHtHcIB30Cgt96miCgYmQq20RuwyLjhHrPLEWzRwxY2OEwER0Cqt9KmaSJawCrXyGkMu49rmENUrfu5OqUgIBT82QeyA7Rf8W7zPyJtzu2McPPAqz395QNJssMdD4jxOtfB+WYvOzLh3/u1hXymVpbWds8Z/BIPNAA3p2zP2RTA+4EnUqs8Tm764bu2+Zbp3cmoxVZvPPkmS9aHTsOAcbXNd5f5l6rWl46NHgnE1qM2majlTAZGqUylGpl+e/kNXevn/AT0JpV86x3yxAAAAAElFTkSuQmCC');
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 0 30px 0 10px;
+}
+.ace_editor {
+	border: 1px dotted #808080;
+	margin: auto;
+}
+.ace_gutter, .ace_scroller {
+	top: 35px;
+}
+.ace_autocomplete > .ace_scroller {
+	top: 0px;
+}
+.ace_search {
+    max-width: 100%;
+    position: static;
+    border-radius: 0 !important;
+    font-size: 9px;
+}
+.ace_search_options {
+	float: left;
+	line-height: 25px;
+	font-size: 14px;
+}
+.ace_search.right::after {
+    color: #000;
+    content: "Help: CTRL|CMD+Space = Autocomplete!";
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+    padding-right: 5px;
+    line-height: 30px;
+}
+.ace_searchbtn_close {
+	display: none;
+}
+.ace_search, .ace_search_form, .ace_replace_form {
+	display: block !important;
+}
+.backup_list {
+	border: 1px dotted #808080;
+	margin-top: 30px;
+	padding: 15px;
+	background: #fff;
+}
+#text-resizer {
+	float: left;
+	margin-bottom: 10px;
+}
+#text-resizer p {
+	float: left;
+	margin: 0 5px 0 0;
+}
+ul.textresizer {
+	display: inline;
+}
+ul.textresizer li {
+	display: inline;
+	margin-right: 5px;
+}
+ul.textresizer a {
+	border: solid 1px #999;
+	padding: 2px 3px;
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 5px !important;
+}
+ul.textresizer a:hover {
+	background: #e5e5e5;
+	border: solid 1px #ccc;
+}
+ul.textresizer .small-text {
+	font-size: 12px;
+}
+ul.textresizer .medium-text {
+	font-size: 14px;
+}
+ul.textresizer .large-text {
+	font-size: 16px;
+}
+ul.textresizer .larger-text {
+	font-size: 18px;
+}
+ul.textresizer .giga-text {
+	font-size: 18px;
+}
+ul.textresizer .textresizer-active {
+	border: solid 1px #2B562B;
+	background: #FFCA6F;
+	color: #000;
+}
+#my_custom_css {
+	border-radius: 5px !important;
+	width: 100%;
+	padding-bottom: 35px;
+	position: relative;
+	font-size: 14px;
+	line-height: 150%;
+}
+#my-custom-css > .button-primary {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABKRJREFUeNqsVs1PHVUUP2fmzjyg5dEC5UuxqJhgtBsMXdWEGFcm1rix7shb4D9A4lYTF4R/wTTaQlxUF24UY62xGKJRsYbEGFNLmrCQgAgU3uN9zHtz/Z1zZ94HUD8Sh8xj7p1zz+/8fufcc4ettfSw68aHN/DLlvFrydkx/tLnI2O+8tqVE/3w/Pw8GWN0UK1WT5fL5Q+KxeLlSqVCvb29NDU1Rf/mmp+/Tjs7u+T7Pnmep3OlUqljZmamaGRC2MD5uUKh8Mn4+PjFjY0NNdre3qbDw0P68vZtBBCRjWN65eXLxwCiqEIIjIaHh3U8ODhIS0tL7yLQQyFiBACDx/P5/M2xsbHR5eVlwrMad/f00EH+gAqFPK189z09c+GCsD0CECGQAqIu0+rqqs6tra3R5OTkG4uLizo2WOSD1kcTExMKIJH7vqcql0sl2t3dpUK+oMYH+/vqNAKQOBbbGOwk0CJsnUyM+SJtbm5Smm+DRTWAPLe1taWUPeOTJFpQICHt7e0hyiL1DfRT/uCA7v52F8wjTTYnqRdjsZV8SJUw1qZpUJDp6Wmam5sj9ph8AMg8u9VgcEj7cPzU6Khzxi5Pid96fcljVClTR8dpSiNkOBFQBUmqCsg+Jk2T2payXVm6dfOLfy4tOO7p6a0jS1l7kDwMwwaIXD7opaUsdCy7HdA/MOCkkfXcQqHhUmWBNTck9L1GKddBZEKZiDfbiJCJWsb1YQraGCRrue4vvRRE9POgnwmMsnDxIkK2idP6TBOLNBiugzf3gjQfrXIJCOS6t9JLP376CMWRpf96Mfxeen2dhp/e1ZwcA5HJAEx++vxReufbi/TzHzH5LLRFX6eM15IPphisa3H6n+jZcx699bxPI2/nW4roGJPglE+/bMf0AzpLiMhEQeNZB1RPA+seEMdV3BGaQKWGIDgmc8r58U6SS0vYBBR0BhQapo7Q0ktjUnWWDCd5Eybsqi/GY4wkw7ey+exXqwGFnQhUQDzvJCaevgy7jDLoCJm+WcciWATCxLeI1BWDtYlENUsRUKIaUzvsM1gXnjHK5KGJ9/Gy7WxIAd63B5ZefFKkYgqEheSEKakwMAATvUEpgmS37ltdl+kK1I9/lIlQk1uYZM4aNW5DZCvISyaQxUzoOJDNyWVVqoRFlalStdQujGHX1h3oVjhWXZlMRnPiKUigDtuMpRceA7DnFvucyJX0qlhZAMRK0pm+Wk+Y6PpA/aUdxKRSCXK5UFC5DPTPBER3tvHfCJsYeXKlnHaEqshUExY4ASOxYy0SWV+Cn5Yu7FqVROnohWcQiUfq9NKAJBMRSl/TKuN6B64i+VAJclkqxR59/bsUB6ncbt+xHL8NEDl4urJZ6h8aokxsdC9I1Hd2LKoM0iEvaZXJu9i6/VFWFrgrafUhOCS+f2iQujqzej7VQeTAuX7t2r2pXG40eGDofKen1SWOdUMmtwBL0SAmlw9JPIKotOFGAfS1MYVZQyPnR+i9q1dz+GZ4P5fL+SzH6+zsbDfO+T9lw/W9OufK1DZ9BDV1X07PxLT7qnzNH0ZMWx+/qUczQJ5YWFi4z3/33fV/XX8JMACy4xzn2a+hdAAAAABJRU5ErkJggg==");
+    background-position: 92% center;
+    background-repeat: no-repeat;
+    border-radius: 15px !important;
+    font-size: 25px;
+    height: 35px;
+    position: fixed;
+    right: 19px;
+    top: 48px;
+    padding: 0 38px 0 10px;
+    z-index: 9999;
+}
+#thememenu, #backup, #invisibles, #margin, #linenumbers, #disablebackup, #basicautocomplete {
+    float: left;
+	margin-right: 7px;
+	margin-top: -5px;
+	line-height: 25px;
+}
+#invisibles, #margin, #linenumbers, #disablebackup, #basicautocomplete {
+	border: 1px solid #656565;
+	border-radius: 5px;
+	padding: 1px 3px;
+	margin-bottom: 2px;
+}
+#thememenu > select {
+	height: 28px;
+}
+form > input[type="radio"] {
+	margin: 0 !important;
+	height: 14px !important;
+	width: 14px !important;
+}
+/* Fix wordpress footer */
+#footer-upgrade {
+	float: left;
+	padding-left: 5px;
+	font-style: italic;
+}
+#mccss_credit {
+	float: right;
+	margin: 5px 2px 0 0;
+	font-style: italic;
+}
+#mccss_credit a, #toggle {
+	text-decoration: none;
+}

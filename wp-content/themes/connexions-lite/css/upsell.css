@@ -1,0 +1,169 @@
+﻿/* Defines styles for upsell page */
+
+/************************************************************************************************************/
+/********************************************* WP FIXES *****************************************************/
+/************************************************************************************************************/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+
+body {
+  background-color: transparent;
+}
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+/************************************************************************************************************/
+/********************************************* STYLING ******************************************************/
+/************************************************************************************************************/
+a:hover, a:active{
+	color: #124964;
+}
+#upsell_container a {
+  text-decoration: none;
+}
+
+#upsell_header {
+ background: none repeat scroll 0 0 #198dff;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+#upsell_header h2{ padding:0px; }
+
+.theme-container:before, .theme-container:after {
+  display: table;
+  line-height: 0;
+  content: '';
+}
+
+.theme-container:after {
+  clear: both;
+}
+
+.theme-container {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.theme-container .theme-image img {
+  padding: 3px;
+}
+
+.theme-description {
+  margin-bottom: 20px;
+}
+.theme-image {
+    float: left;
+    width: 370px;
+}
+.theme-info {
+    float: left;
+    width: 45%;
+}
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.sketch-social-container {
+	height: 10px;
+    left: 18.5%;
+    position: relative;
+    width: 50%;
+}
+div.sketch-social {
+    float: left;
+	margin-right: 25px;
+}
+#upsell_container .sketch-social-container {
+	left: 40.5%;
+    margin-bottom: 22px;
+    position: relative;
+    width: 50%;
+}
+#upsell_container div.sketch-social {
+    float: left;
+	margin-right: 25px;
+}
+.donate-info { 
+  background-color: #333333;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+.donate-info a {
+  font-size: 15px;
+   padding: 10px 21px;
+   margin: 15px 5px 0 0;
+   text-align: center;
+   text-decoration: none; 
+   color: #fff; 
+   display: inline-block;
+   border-radius: 2px;
+}
+.donate-info a:hover {   
+
+}
+a.upgrade { 
+  background-color:#1abc9c;
+}
+a.donate {
+   background-color:#f39c12;
+}
+a.review {
+   background-color:#1588ff;
+}

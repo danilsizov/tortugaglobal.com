@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'fcb';
+  src: url('../font/fcb.eot?36446428');
+  src: url('../font/fcb.eot?36446428#iefix') format('embedded-opentype'),
+       url('../font/fcb.woff?36446428') format('woff'),
+       url('../font/fcb.ttf?36446428') format('truetype'),
+       url('../font/fcb.svg?36446428#fcb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fcb';
+    src: url('../font/fcb.svg?36446428#fcb') format('svg');
+  }
+}
+*/
+ 
+ .formcraft-css [class^="icon-"]:before,
+ .formcraft-css [class*=" icon-"]:before {
+  font-family: "fcb";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.formcraft-css .icon-trash:before { content: '\e800'; } /* '' */
+.formcraft-css .icon-trash-empty:before { content: '\e801'; } /* '' */
+.formcraft-css .icon-plus:before { content: '\e802'; } /* '' */
+.formcraft-css .icon-plus-circled:before { content: '\e803'; } /* '' */
+.formcraft-css .icon-angle-down:before { content: '\e804'; } /* '' */
+.formcraft-css .icon-angle-up:before { content: '\e805'; } /* '' */
+.formcraft-css .icon-cog-alt:before { content: '\e806'; } /* '' */
+.formcraft-css .icon-cog:before { content: '\e807'; } /* '' */
+.formcraft-css .icon-angle-circled-down:before { content: '\e808'; } /* '' */
+.formcraft-css .icon-angle-circled-up:before { content: '\e809'; } /* '' */
+.formcraft-css .icon-folder-open:before { content: '\e80a'; } /* '' */
+.formcraft-css .icon-folder-open-empty:before { content: '\e80b'; } /* '' */
+.formcraft-css .icon-ok:before { content: '\e80c'; } /* '' */
+.formcraft-css .icon-cancel:before { content: '\e80d'; } /* '' */
+.formcraft-css .icon-ok-circle:before { content: '\e80e'; } /* '' */
+.formcraft-css .icon-angle-left:before { content: '\e80f'; } /* '' */
+.formcraft-css .icon-angle-right:before { content: '\e810'; } /* '' */
+.formcraft-css .icon-trash-1:before { content: '\e811'; } /* '' */
+.formcraft-css .icon-pencil:before { content: '\e812'; } /* '' */
+.formcraft-css .icon-minus:before { content: '\e813'; } /* '' */
+.formcraft-css .icon-minus-circled:before { content: '\e814'; } /* '' */
+.formcraft-css .icon-docs:before { content: '\e815'; } /* '' */
+.formcraft-css .icon-mail:before { content: '\e816'; } /* '' */
+.formcraft-css .icon-mail-alt:before { content: '\e817'; } /* '' */
+.formcraft-css .icon-align-left:before { content: '\e818'; } /* '' */
+.formcraft-css .icon-align-center:before { content: '\e819'; } /* '' */
+.formcraft-css .icon-align-right:before { content: '\e81a'; } /* '' */
+.formcraft-css .icon-doc-text:before { content: '\e81b'; } /* '' */
+.formcraft-css .icon-up-circled:before { content: '\e81c'; } /* '' */
+.formcraft-css .icon-upload-cloud:before { content: '\e81d'; } /* '' */
+.formcraft-css .icon-download-cloud:before { content: '\e81e'; } /* '' */
+.formcraft-css .icon-help:before { content: '\e81f'; } /* '' */
+.formcraft-css .icon-help-circled:before { content: '\e820'; } /* '' */
+.formcraft-css .icon-star:before { content: '\e821'; } /* '' */
+.formcraft-css .icon-star-empty:before { content: '\e822'; } /* '' */
+.formcraft-css .icon-heart:before { content: '\e823'; } /* '' */
+.formcraft-css .icon-spin5:before { content: '\e824'; } /* '' */
+.formcraft-css .icon-move:before { content: '\e825'; } /* '' */

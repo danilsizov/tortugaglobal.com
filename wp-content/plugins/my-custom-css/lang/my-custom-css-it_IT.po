@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: My Custom CSS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-21 12:05+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Salvatore Noschese (DarkWolf) <admin@darkwolf.it>\n"
+"Language-Team: SalvatoreN <https://laltroweb.it/>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: my-custom-css.php:69
+msgid "Settings"
+msgstr "Opzioni"
+
+#: my-custom-css.php:72
+msgid "Support"
+msgstr "Supporto"
+
+#: my-custom-css.php:378 my-custom-css.php:576
+msgid "My Custom CSS Panel"
+msgstr "Pannello My Custom CSS"
+
+#: my-custom-css.php:381
+msgid "Font:"
+msgstr "Font:"
+
+#: my-custom-css.php:391
+msgid "Theme:"
+msgstr "Tema:"
+
+#: my-custom-css.php:392 my-custom-css.php:459 my-custom-css.php:463
+#: my-custom-css.php:467 my-custom-css.php:471 my-custom-css.php:475
+msgid ""
+"Warning!!! This will refresh entire page (Unsaved data will be lost) - "
+"Continue?"
+msgstr ""
+"Attenzione!!! Questo aggiorner&agrave; la pagina intera (i dati non salvati "
+"andranno persi) - Continuare?"
+
+#: my-custom-css.php:393
+msgid "Bright:"
+msgstr "Luminoso:"
+
+#: my-custom-css.php:410
+msgid "Dark:"
+msgstr "Scuro:"
+
+#: my-custom-css.php:440
+msgid "No backup found"
+msgstr "Nessun backup trovato"
+
+#: my-custom-css.php:444
+msgid "View backups"
+msgstr "Visualizza i backup"
+
+#: my-custom-css.php:444
+msgid "Click to view all backups!"
+msgstr "Clicca per vedere tutti i backup!"
+
+#: my-custom-css.php:448
+msgid "Backup:"
+msgstr "Backup:"
+
+#: my-custom-css.php:452
+msgid "Enable"
+msgstr "Abilita"
+
+#: my-custom-css.php:453
+msgid "Disable"
+msgstr "Disabilita"
+
+#: my-custom-css.php:455
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: my-custom-css.php:458
+msgid "Invisibles"
+msgstr "Invisibili"
+
+#: my-custom-css.php:462
+msgid "Margin"
+msgstr "Margine"
+
+#: my-custom-css.php:466
+msgid "LineNumbers"
+msgstr "Numeri di riga"
+
+#: my-custom-css.php:470
+msgid "Backup"
+msgstr "Backup"
+
+#: my-custom-css.php:474
+msgid "Autocomplete"
+msgstr "Autocompletamento"
+
+#: my-custom-css.php:487
+msgid "Save"
+msgstr "Salva"
+
+#: my-custom-css.php:509
+msgid "My custom CSS - Backup"
+msgstr "My custom CSS - Backup"
+
+#: my-custom-css.php:511 my-custom-css.php:531
+msgid "Close now!"
+msgstr "Chiudi ora!"
+
+#: my-custom-css.php:513
+msgid "Erase all backup?"
+msgstr "Cancellare tutti i backup?"
+
+#: my-custom-css.php:513
+msgid "Do you want really delete all backup?"
+msgstr "Vuoi davvero eliminare tutti i backup?"
+
+#: my-custom-css.php:519
+msgid "File:"
+msgstr "File:"
+
+#: my-custom-css.php:520
+msgid "Path:"
+msgstr "Percorso:"
+
+#: my-custom-css.php:521
+msgid "Saved:"
+msgstr "Salvato:"
+
+#: my-custom-css.php:522
+msgid "Size:"
+msgstr "Dimensioni:"
+
+#: my-custom-css.php:530
+msgid "My custom CSS - Erase Backup"
+msgstr "My custom CSS - Cancella i backup"
+
+#: my-custom-css.php:537
+msgid "bytes, was successfully deleted!!!"
+msgstr "byte, &egrave; stato cancellato con successo!!!"
+
+#: my-custom-css.php:576
+msgid "My Custom CSS"
+msgstr "My Custom CSS"
+
+#~ msgid "Invisible"
+#~ msgstr "Invisibile"
+
+#~ msgid "Invisible:"
+#~ msgstr "Invisibile:"
+
+#~ msgid "Margin:"
+#~ msgstr "Margine:"
+
+#~ msgid "LineNumbers:"
+#~ msgstr "Line Numbers:"
+
+#~ msgid "Autocomplete:"
+#~ msgstr "Autocompletamento:"
+
+#~ msgid "LineNumber:"
+#~ msgstr "Numero di riga:"
+
+#~ msgid "Font Size:"
+#~ msgstr "Dimensione dei font:"
+
+#~ msgid "No backup found..."
+#~ msgstr "Nessun backup trovato..."
+
+#~ msgid "Erase all backup"
+#~ msgstr "Cancellare tutti i backup"
+
+#~ msgid "View backups :)"
+#~ msgstr "Visualizza i backup :)"
+
+#~ msgid "I can't list any *.css: 'No file found'... "
+#~ msgstr "Non posso elencare nessun *.css: 'File non trovato' ..."
+
+#~ msgid "I can't delete any *.css: 'No file found'... "
+#~ msgstr "Non posso eliminare nessun *.css: 'File non trovato' ..."
+
+#~ msgid "No backup here..."
+#~ msgstr "Nessun backup qui..."
+
+#~ msgid "Custom CSS Code:"
+#~ msgstr "Codice CSS Personale:"
+
+#~ msgid ""
+#~ "With this plugin you can put custom css code without edit your theme and/"
+#~ "or your plugins (really useful in case of any theme/plugin update)."
+#~ msgstr ""
+#~ "Con questo plugin puoi inserire codice css personale senza modificare il "
+#~ "tuo tema e/o i tuoi plugin (molto utile in caso di aggiornamenti)."

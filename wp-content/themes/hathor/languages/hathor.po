@@ -1,0 +1,1149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hathor\n"
+"POT-Creation-Date: 2015-08-27 00:26+0600\n"
+"PO-Revision-Date: 2015-08-27 00:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:23
+msgid "404"
+msgstr ""
+
+#: 404.php:24
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:25
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr ""
+
+#: 404.php:31
+msgid "Or Return home?"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:85
+#: admin/includes/class-options-framework-admin.php:86
+#: admin/includes/class-options-framework-admin.php:308
+msgid "Theme Options"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:174
+msgid "Save Options"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:175
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:175
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:206
+msgid "Default options restored."
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:260
+msgid "Options saved."
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:66
+#: admin/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:68
+#: admin/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr ""
+
+#: archive.php:48 layout2.php:48 search.php:52 single.php:40 tag.php:40
+#: template-blog.php:62
+msgid "No comments"
+msgstr ""
+
+#: archive.php:48 layout2.php:48 search.php:52 single.php:40 tag.php:40
+#: template-blog.php:62
+msgid "1 Comment"
+msgstr ""
+
+#: archive.php:48 layout2.php:48 search.php:52 single.php:40 tag.php:40
+#: template-blog.php:62
+msgid "% Comments"
+msgstr ""
+
+#: category.php:15
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:20
+#, php-format
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33
+msgid "&#8249; Older comments"
+msgstr ""
+
+#: comments.php:34
+msgid "Newer comments &#8250;"
+msgstr ""
+
+#: comments.php:45
+msgid "Pings&#47;Trackbacks"
+msgstr ""
+
+#: comments.php:48
+#, php-format
+msgid "%1$d %2$s for \"%3$s\""
+msgstr ""
+
+#: comments.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:64
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:66
+msgid "Website"
+msgstr ""
+
+#: dummy/dummy-footer.php:23 footer1.php:29 footer2.php:25
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:210
+msgid "Menu"
+msgstr ""
+
+#: functions.php:360 functions.php:362 options.php:1064
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:370
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:372
+msgid "Widget Area for the Footer"
+msgstr ""
+
+#: functions.php:411
+msgid "Primary Navigation(Header)"
+msgstr ""
+
+#: options.php:100
+msgid "Front Page"
+msgstr ""
+
+#: options.php:104
+msgid "layouts"
+msgstr ""
+
+#: options.php:105
+msgid "<b>Upgrade to hathor PRO for more 4 Layouts and 4 header layout </b>"
+msgstr ""
+
+#: options.php:108
+msgid "Front Page Layout"
+msgstr ""
+
+#: options.php:120
+msgid "Select header style"
+msgstr ""
+
+#: options.php:127
+msgid "Select footer style"
+msgstr ""
+
+#: options.php:135
+msgid "Custom logo image"
+msgstr ""
+
+#: options.php:136
+msgid "You can upload custom image for your website logo (optional)."
+msgstr ""
+
+#: options.php:143
+msgid "Home Page Callout section"
+msgstr ""
+
+#: options.php:145
+msgid ""
+"If you leave this field empty, the callout section will not be displayed."
+msgstr ""
+
+#: options.php:152
+msgid "Latest Blog Title"
+msgstr ""
+
+#: options.php:153
+msgid "Title For the Latest Blog"
+msgstr ""
+
+#: options.php:159
+msgid "Enable Latest Posts"
+msgstr ""
+
+#: options.php:167
+msgid "Footer Content"
+msgstr ""
+
+#: options.php:175 options.php:180
+msgid "Color & Font"
+msgstr ""
+
+#: options.php:181
+msgid ""
+"<b>Upgrade to Hathor PRO for unlimited Google fonts and Unlimited Skins- "
+"Ability to change the color of any elements </b>"
+msgstr ""
+
+#: options.php:185
+msgid "Select Font"
+msgstr ""
+
+#: options.php:198
+msgid "flavour Color"
+msgstr ""
+
+#: options.php:204
+msgid "Hover Color"
+msgstr ""
+
+#: options.php:216
+msgid "Sliders"
+msgstr ""
+
+#: options.php:221
+msgid "Slider"
+msgstr ""
+
+#: options.php:222
+msgid ""
+"<b>Upgrade to hathor PRO for 2 slider with unlimited slider image and "
+"customs slider.</b>"
+msgstr ""
+
+#: options.php:225
+msgid "Select Slider"
+msgstr ""
+
+#: options.php:234
+msgid "Slider Speed"
+msgstr ""
+
+#: options.php:241
+msgid "Number of Slides"
+msgstr ""
+
+#: options.php:249
+msgid "Slider Content"
+msgstr ""
+
+#: options.php:271
+msgid "Using the Slider"
+msgstr ""
+
+#: options.php:272
+msgid ""
+"This Slider supports upto 5 Images.Upload every slider images in same size. "
+"To show only 3 Slides in the slider, upload only 3 images. Leave the rest "
+"Blank. For best results, upload images of size 1100px * ____px.<b>Upgrade to "
+"hathor PRO for unlimited slider and customs slider</b>"
+msgstr ""
+
+#: options.php:276
+msgid "Slider Image 1"
+msgstr ""
+
+#: options.php:277
+msgid "First Slide"
+msgstr ""
+
+#: options.php:285 options.php:307 options.php:328 options.php:349
+#: options.php:369 options.php:581 options.php:614 options.php:642
+#: options.php:668 options.php:698 options.php:746 options.php:769
+#: options.php:796 options.php:822 options.php:852
+msgid "Title"
+msgstr ""
+
+#: options.php:291 options.php:313 options.php:334 options.php:355
+#: options.php:375 options.php:620 options.php:648 options.php:674
+#: options.php:704 options.php:775 options.php:802 options.php:828
+#: options.php:858
+msgid "Description or Tagline"
+msgstr ""
+
+#: options.php:299
+msgid "Slider Image 2"
+msgstr ""
+
+#: options.php:300
+msgid "Second Slide"
+msgstr ""
+
+#: options.php:321
+msgid "Slider Image 3"
+msgstr ""
+
+#: options.php:322
+msgid "Third Slide"
+msgstr ""
+
+#: options.php:342
+msgid "Slider Image 4"
+msgstr ""
+
+#: options.php:343
+msgid "Fourth Slide"
+msgstr ""
+
+#: options.php:362
+msgid "Slider Image 5"
+msgstr ""
+
+#: options.php:363
+msgid "Fifth Slide"
+msgstr ""
+
+#: options.php:385
+msgid "Services Bloks"
+msgstr ""
+
+#: options.php:388
+msgid "Enable Blocks"
+msgstr ""
+
+#: options.php:394 options.php:574 options.php:739 options.php:893
+msgid "Open link in new tab (this option Lock in Free version )"
+msgstr ""
+
+#: options.php:401
+msgid "Link"
+msgstr ""
+
+#: options.php:402
+msgid "Link  of the service block"
+msgstr ""
+
+#: options.php:408
+msgid "Select service block style"
+msgstr ""
+
+#: options.php:418
+msgid "Block 1 Logo"
+msgstr ""
+
+#: options.php:427
+msgid "Custom image block 1(style1)"
+msgstr ""
+
+#: options.php:428
+msgid "You can upload custom image for your service block 1"
+msgstr ""
+
+#: options.php:432
+msgid "Block 1 Heading"
+msgstr ""
+
+#: options.php:438
+msgid "Block 1 Text"
+msgstr ""
+
+#: options.php:444
+msgid "Block 1 Link"
+msgstr ""
+
+#: options.php:453
+msgid "Block 2 Logo"
+msgstr ""
+
+#: options.php:462
+msgid "Custom image block 2(style1)"
+msgstr ""
+
+#: options.php:463
+msgid "You can upload custom image for your service block 2"
+msgstr ""
+
+#: options.php:468
+msgid "Block 2 Heading"
+msgstr ""
+
+#: options.php:474
+msgid "Block 2 Text"
+msgstr ""
+
+#: options.php:480
+msgid "Block 2 Link"
+msgstr ""
+
+#: options.php:487
+msgid "Block 3 Logo"
+msgstr ""
+
+#: options.php:496
+msgid "Custom image block 3(style1)"
+msgstr ""
+
+#: options.php:497
+msgid "You can upload custom image for your service block 3"
+msgstr ""
+
+#: options.php:503
+msgid "Block 3 Heading"
+msgstr ""
+
+#: options.php:509
+msgid "Block 3 Text"
+msgstr ""
+
+#: options.php:515
+msgid "Block 3 Link"
+msgstr ""
+
+#: options.php:522
+msgid "Block 4 Logo"
+msgstr ""
+
+#: options.php:531
+msgid "Custom image block 4(style1)"
+msgstr ""
+
+#: options.php:532
+msgid "You can upload custom image for your service block 4"
+msgstr ""
+
+#: options.php:537
+msgid "Block 4 Heading"
+msgstr ""
+
+#: options.php:543
+msgid "Block 4 Text"
+msgstr ""
+
+#: options.php:549
+msgid "Block 4 Link"
+msgstr ""
+
+#: options.php:558
+msgid "Recent work"
+msgstr ""
+
+#: options.php:564
+msgid "<b>Upgrade to Hathor PRO for more recent work post options </b>"
+msgstr ""
+
+#: options.php:567
+msgid "Enable Recent work"
+msgstr ""
+
+#: options.php:582
+msgid "Title of the recent work slider"
+msgstr ""
+
+#: options.php:589 options.php:754
+msgid "Tagline"
+msgstr ""
+
+#: options.php:590
+msgid "Tagline of the recent work slider"
+msgstr ""
+
+#: options.php:597
+msgid "Link name"
+msgstr ""
+
+#: options.php:598
+msgid "Link  of the recent work slider"
+msgstr ""
+
+#: options.php:606 options.php:761
+msgid "Image 1"
+msgstr ""
+
+#: options.php:607 options.php:762
+msgid "First image"
+msgstr ""
+
+#: options.php:626 options.php:654 options.php:680 options.php:710
+#: options.php:781 options.php:808 options.php:834 options.php:864
+#: options.php:915 options.php:929 options.php:944 options.php:958
+#: options.php:974
+msgid "Url"
+msgstr ""
+
+#: options.php:633 options.php:788
+msgid "Image 2"
+msgstr ""
+
+#: options.php:634 options.php:789
+msgid "2nd image"
+msgstr ""
+
+#: options.php:660 options.php:814
+msgid "Image 3"
+msgstr ""
+
+#: options.php:661 options.php:815
+msgid "3rd image"
+msgstr ""
+
+#: options.php:690 options.php:844
+msgid "Image 4"
+msgstr ""
+
+#: options.php:691 options.php:845
+msgid "4th image"
+msgstr ""
+
+#: options.php:723
+msgid "Our Team"
+msgstr ""
+
+#: options.php:727
+msgid "<b>Upgrade to Hathor PRO for our team work post options </b>"
+msgstr ""
+
+#: options.php:732
+msgid "Enable Our Team"
+msgstr ""
+
+#: options.php:747
+msgid "Title of the Our Team slider"
+msgstr ""
+
+#: options.php:755
+msgid "Tagline of the Our Team slider"
+msgstr ""
+
+#: options.php:874 options.php:881
+msgid "Our Client"
+msgstr ""
+
+#: options.php:878
+msgid "<b>Upgrade to Hathor PRO for more our client post options </b>"
+msgstr ""
+
+#: options.php:882
+msgid "Image size must be 223px*113px."
+msgstr ""
+
+#: options.php:886
+msgid "Enable our client"
+msgstr ""
+
+#: options.php:900
+msgid "Our Client Title"
+msgstr ""
+
+#: options.php:901
+msgid "Title of the Our Client"
+msgstr ""
+
+#: options.php:907
+msgid "Client One"
+msgstr ""
+
+#: options.php:908
+msgid "Upload image for client one "
+msgstr ""
+
+#: options.php:921
+msgid "Client 2"
+msgstr ""
+
+#: options.php:922
+msgid "Upload image for client 2 "
+msgstr ""
+
+#: options.php:936
+msgid "Client 3"
+msgstr ""
+
+#: options.php:937
+msgid "Upload image for client 3 "
+msgstr ""
+
+#: options.php:950
+msgid "Client 4"
+msgstr ""
+
+#: options.php:951
+msgid "Upload image for client 4 "
+msgstr ""
+
+#: options.php:966
+msgid "Client 5"
+msgstr ""
+
+#: options.php:967
+msgid "Upload image for client 5 "
+msgstr ""
+
+#: options.php:984
+msgid "Social"
+msgstr ""
+
+#: options.php:988
+msgid "Facebook"
+msgstr ""
+
+#: options.php:994
+msgid "Twitter"
+msgstr ""
+
+#: options.php:1000
+msgid "Google Plus"
+msgstr ""
+
+#: options.php:1006
+msgid "Youtube"
+msgstr ""
+
+#: options.php:1014
+msgid "Pinterest"
+msgstr ""
+
+#: options.php:1020
+msgid "vimeo"
+msgstr ""
+
+#: options.php:1025
+msgid "LinkedIn"
+msgstr ""
+
+#: options.php:1031
+msgid "flickr"
+msgstr ""
+
+#: options.php:1037
+msgid "Rss"
+msgstr ""
+
+#: options.php:1044
+msgid "Instagram"
+msgstr ""
+
+#: options.php:1056
+msgid "Miscelleneous"
+msgstr ""
+
+#: options.php:1060
+msgid "miscellaneous"
+msgstr ""
+
+#: options.php:1061
+msgid "<b>Upgrade to hathor PRO for more option </b>"
+msgstr ""
+
+#: options.php:1070
+msgid "featured image in post"
+msgstr ""
+
+#: options.php:1077
+msgid "Post Author Name"
+msgstr ""
+
+#: options.php:1083
+msgid "Category & Tags"
+msgstr ""
+
+#: options.php:1090
+msgid "Documentation"
+msgstr ""
+
+#: options.php:1095
+msgid ""
+"\n"
+"\t\t\t\t  \n"
+"\t\t\t\t  <p style=\"color:#000;font-size: 18px;\">1. Setting up the front  "
+"page</p><br>\n"
+"<p style=\"color:#000;font-size: 14px;\">\t\t\t\t  \n"
+"When you  select &ldquo;Your Latest Posts&rdquo; from Settings&gt; Reading "
+"you will be able to  display 8 frontpage elements on your site&rsquo;s "
+"frontpage. They are: <br>\n"
+"<br>\n"
+"i. Slider<br>\n"
+"ii. Blocks<br>\n"
+"iii. Welcome  Text<br>\n"
+"iv. Frontpage  Posts<br>\n"
+"v. Call to  Action<br>\n"
+"vi. Recent work<br>\n"
+"vii.Our Team<br>\n"
+"viii.Our Client \n"
+"</p>\n"
+"<br />\n"
+"<br />\n"
+"</p>\n"
+"<p><p  style=\"color:#000;font-size: 16px;\">i. Setting up the slider</p>\n"
+"  From <strong>hathor Theme Options&gt; Slider</strong>  For each slide you "
+"should set: \n"
+"<p><img src=\"http://i.imgur.com/njkv7dq.jpg\" alt=\"Create New Slide\" "
+"width=\"637\" height=\"493\"></p>\n"
+"  <br>\n"
+"\t\t\t\n"
+"\t<p style=\"color:#000;font-size: 16px;\"> a.<strong>Image:</strong> Select/"
+"Upload Slide image by  clicking the &ldquo;Upload Image&rdquo; button. If "
+"you are using the &ldquo;Full Width&rdquo; mode,  make sure the slider "
+"images have at least 1600px of width. If set to fixed, the  slider images "
+"should have minimum width of 1200px. If your images are bigger,  you can "
+"resize and crop them online using this application: <a target=\"_blank\" "
+"href=\"http://pixlr.com/editor/\">http://pixlr.com/editor/</a>. There&rsquo;"
+"s also a video tutorial on  youtube on how to resize and crop your images "
+"and save them: <a target=\"_blank\" href=\"https://www.youtube.com/watch?"
+"v=WmFjvNlm1E4\">https://www.youtube.com/watch?v=WmFjvNlm1E4</a><br>\n"
+"  b. <strong>Title:</strong> Write a title of your  slide. This is optional; "
+"if you don&rsquo;t want to display the title of the slide  you should keep "
+"this empty.<br>\n"
+"   c. <strong>Description:</strong> If you want to display a  little subtext "
+"under the title of the slide you should use this field. You can  use HTML "
+"tags.<br>\n"
+"  d. <strong>Url:</strong> If you want your slide  image and title to "
+"contain a link, you should put it here.<br>\t\n"
+"  \n"
+"   <p> \n"
+"\n"
+"<p style=\"color:#000;font-size: 18px;\">2. Setting up posts Image "
+"Thumbnails</p>\n"
+"<p style=\"color:#000;font-size: 14px;\">To setup post thumbnails, you "
+"should use the \"Featured image\" option of wordpress. While editing the "
+"post, on the right, notice there is a \"Featured Image\" box. Add your post "
+"thumbnail image from here. For best visual appearance, the minimum dimension "
+"of the thumbnails should be <b>350px x 235px</b></p>\n"
+"\n"
+"<p><img src=\"http://i.imgur.com/kxuiZRz.jpg\" alt=\"Create New Slide\" "
+"width=\"250\" height=\"300\"></p>\n"
+"\n"
+"\n"
+"<p  style=\"color:#000;font-size: 18px;\">3. Setting up a Blog Page <p>\n"
+"<p style=\"color:#000;font-size: 16px;\">If you want to set up a blog page, "
+"you should use the \"Blog page Template\" that comes with the theme. To "
+"setup a blog page, follow these steps:</p>\n"
+"<p >\n"
+"<ul style=\"color:#000;font-size: 16px; padding-left:10px;\">\n"
+"<li><b>Step 1:</b> First mark all the posts with a category called \"blog\" "
+"or something.</li>\n"
+"<li><b>Step 2:</b>\tThen create a new page and Give it a title.  While in "
+"the post editor page, notice there is a box on right called \"Page Attributes"
+"\". From this box, you can select multiple page templates. Select \"Blog "
+"Page Template\" from the dropdown list and save the page. </li>\n"
+"<li><b>Step 3:</b>\tThen Go to Appearance> hathor options> Misc. and select "
+"the category \"blog\" for \"Display Blog Posts from a selected Category\" "
+"option. </li>\n"
+"<li><b>Step 4:</b>\tNow view the created page, and you will see the page is "
+"displaying all the posts from your specified category.</li>\n"
+"</ul>\n"
+"</p>\n"
+"<p><img src=\"http://i.imgur.com/CoTg2Ac.png\" alt=\"Page Template\" width="
+"\"608\" height=\"308\"></p>\n"
+"\n"
+"\n"
+"<p style=\"color:#000;font-size: 18px;\">4. Setting up the Menu</p>\n"
+"<p style=\"color:#000;font-size: 16px;\">Setting up a menu is quite easy. "
+"Follow these steps to create a menu:</p>\n"
+"<p style=\"color:#000;font-size: 14px;\">\n"
+"<b>Step 1:</b> Go to Appearance>Menus and click the \"create a new menu\" "
+"link. Give your menu a name and click the \"Create Menu\" button.</br>\n"
+"<b>Step 2:</b> Now add menu items to the newly create menu. You can add menu "
+"from your pages and categories. You can also add custom links to your menu. "
+"To add a menu item, select the menu item from left and click the \"Add to "
+"menu\" button. </br>\n"
+"<b>Step 3:</b> You can change the order of menus from right by dragging and "
+"dropping them. To create a submenu, drag a menu item and move it to right.</"
+"br>\n"
+"<b>Step 4:</b> After adding all the menu items, select the \"Header "
+"Navigation\" option from the bottom. \n"
+"</p>\n"
+"\n"
+"<p><img src=\"http://i.imgur.com/BjBddrG.png\" alt=\"Menu Setup\" width="
+"\"608\" height=\"242\"></p>\n"
+"\t\t  \n"
+"\t\t\t\t  \n"
+"\t\t\t\t  "
+msgstr ""
+
+#: options.php:1166
+msgid "Upgrade"
+msgstr ""
+
+#: options.php:1174
+msgid ""
+"<p style=\"height:100%;color:#000 \"><b>About the theme</b> <br><p style="
+"\"text-align:justify;font-size:14px;color:#000 !important;\">Hathor is a "
+"Simple, Clean and Responsive Retina Ready WordPress Theme which adapts "
+"automatically to your tablets and mobile devices. theme with 2 home page "
+"layouts,10 social icons,4 widget ,Slider,3 page templates ,Full width page, "
+"4 google fonts, font-awesome service icon,Upload logo option,The theme is "
+"translation ready and fully translated into all language. hathor is suitable "
+"for any types of website corporate, portfolio, business, blog.</p></br></"
+"br>\n"
+"\t\t\t\t\t   \n"
+"\t\t\t\t\t   \n"
+"\t\t\t\t\t  \n"
+"\t\t\t\t\t   \n"
+"\t<p style=\"color:#000;font-size: 18px;\">Support</p>\t\n"
+"\t<p style=\"color:#000;font-size: 14px;\">The best way to contact me with "
+"support questions and bug reports is via the <a target=\"_blank\" href="
+"\"http://wordpress.org/support/ \">WordPress support forums.</a> or  <a "
+"target=\"_blank\" href=\"http://www.imonthemes.com/?p=124 \">Visite Imon "
+"Themes theme page</a>  </p>\t\t\t   \n"
+"\n"
+"\n"
+"                \n"
+"                    \n"
+"                 \n"
+"                \n"
+"                  <p style=\"padding-bottom: 20px;text-align: center;font-"
+"size: 18px;color: #000;\">Here are the features comparison between Hathor "
+"and Hathor PRO</p>\n"
+" <table id=\"compare\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n"
+"<tbody>\n"
+"<tr class=\"head\">\n"
+"<td valign=\"top\" class=\"feat_top\"><p>Features</p></td>\n"
+"<td valign=\"top\" class=\"lite_top\" ><p><b>Hathor</b></p></td>\n"
+"<td valign=\"top\" class=\"pro_top\" ><p><b>Hathor Pro</b></p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Skins</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>0</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><strong>Unlimited</strong><br />\n"
+"<small>(Ability to change the color of almost all the elements and fonts)</"
+"small></p></p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Fonts</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>4</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><strong>Unlimited</strong></p></td>\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Layouts</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>2</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><strong>4</strong></p></td>\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Slider</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>1</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><strong>2 slider with unlimited slider "
+"image and customs slider</strong></p></td>\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Header Type(Types of header)</b></"
+"p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>2</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><strong>4</strong></p></td>\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Widgets</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>2</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><strong>4</strong></p></td>\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Widget Areas</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>Sidebar Widgets/ Footer Widgets</p></"
+"td>\n"
+"<td valign=\"top\" class=\"pro\" ><p><b>Sidebar Widgets/ Footer Widgets</b></"
+"p></td>\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Page Templates</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p>2</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p>5</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Change title font size</b></p></"
+"td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">yes</p></td>\n"
+"\n"
+"</tr>\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat feat_bottom\" ><p><b>Call to Action Button</"
+"b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Mobile Friendly version</b></p></"
+"td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"yes\">YES</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Upload LOGO/Favicon</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Social Share buttons/Numbered Page "
+"Navigation</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"yes\">YES</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Related Posts</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">Yes</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Google Analytics <br />\n"
+"Integration</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">Yes</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Threaded comments/Separated "
+"Comments &amp; Trackbacks</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"yes\">YES</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"</tr>\n"
+"\n"
+"\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat\" ><p><b>Full Email support</b></p></td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td valign=\"top\" class=\"feat feat_bottom\" ><p><b>Live support</b></p></"
+"td>\n"
+"<td valign=\"top\" class=\"lite\" ><p class=\"no\">NO</p></td>\n"
+"<td valign=\"top\" class=\"pro\" ><p class=\"yes\">YES</p></td>\n"
+"\n"
+"</tr>\n"
+"\n"
+"<tr>\n"
+"<td></td>\n"
+"<td></td>\n"
+"<td valign=\"top\" class=\"download\" ><a class=\"green\" href=\"http://www."
+"imonthemes.com/?p=209\" target=\"_blank\">Buy Now</a></td>\n"
+"</tr>\n"
+"</tbody>\n"
+"</table>\n"
+"\n"
+" \t\n"
+"  \n"
+"\n"
+"\n"
+"  \n"
+"                \n"
+"                   \n"
+"                 \n"
+"                \n"
+"               \n"
+"\n"
+"\n"
+"\n"
+"\t\t\t\t\t   \n"
+"\t\t\t\t\t   \n"
+"\t\t\t\t\t   \n"
+"\t\t\t\t\t   <h4 style=\"text-align:center;color: #000;>About Developer</"
+"h4>\n"
+"<p style=\"color: #000;> This Theme is designed and developedby <a target="
+"\"_blank\" style=\" color:#10a7d1;\" href=\"http://www.imonthemes.com/"
+"\"><span>Imon Themes</span></a><br /></p> "
+msgstr ""
+
+#: pagination.php:8
+msgid "Older posts"
+msgstr ""
+
+#: pagination.php:9
+msgid "Newer posts"
+msgstr ""
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:14
+msgid "Total posts found for"
+msgstr ""
+
+#: search.php:14
+msgid "<span class=\"search-terms\">\""
+msgstr ""
+
+#: search.php:14
+msgid "\"</span>"
+msgstr ""
+
+#: search.php:14
+msgid " &mdash; "
+msgstr ""
+
+#: share_this.php:6
+msgid "this post on Facebook"
+msgstr ""
+
+#: share_this.php:9
+msgid "this post"
+msgstr ""
+
+#: share_this.php:12
+msgid "This"
+msgstr ""
+
+#: single.php:51 tag.php:49
+msgid "Pages:"
+msgstr ""
+
+#: template-blog.php:56
+msgid "Categories:"
+msgstr ""
+
+#: template-blog.php:71
+msgid "Read more"
+msgstr ""
+
+#: template-blog.php:75
+msgid "Tags:"
+msgstr ""

@@ -1,0 +1,235 @@
+/*!
+ * Bootstrap v3.0.0
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+ /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+ /* Animations */
+
+
+.fcb-form-modal .fcbmodal-content
+{
+  background-color: transparent;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-clip: padding-box;
+  outline: none;  
+}
+.fcb-form-modal .fcbmodal-body
+{
+  background-color: transparent;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 0px;
+}
+
+.fcbmodal-open {
+  overflow: hidden;
+}
+
+.fcbmodal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  z-index: 10400;
+  transition: transform .3s cubic-bezier(0.1,0,.7,1), opacity .2s linear;
+  -moz-transition: transform .3s cubic-bezier(0.1,0,.7,1), opacity .2s linear;
+  -webkit-transition: -webkit-transform .3s cubic-bezier(0.1,0,.7,1), opacity .2s linear;
+  -ms-transition: transform .3s cubic-bezier(0.1,0,.7,1), opacity .2s linear;
+  -o-transition: transform .3s cubic-bezier(0.1,0,.7,1), opacity .2s linear; 
+}
+.fcbmodal.fcbfade
+{
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  opacity: 0.0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(.99) translate3d(0, 0, 0);
+  -moz-transform: scale(.99) translate3d(0, 0, 0);
+  -o-transform: scale(.99) translate3d(0, 0, 0);
+  -ms-transform: scale(.99) translate3d(0, 0, 0);
+  transform: scale(.99) translate3d(0, 0, 0);
+}
+.fcbmodal.fcbfade.fcbin
+{
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1) translate3d(0, 0, 0);
+  -moz-transform: scale(1) translate3d(0, 0, 0);
+  -o-transform: scale(1) translate3d(0, 0, 0);
+  -ms-transform: scale(1) translate3d(0, 0, 0);
+  transform: scale(1) translate3d(0, 0, 0);
+}
+
+
+.fcbmodal-dialog {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  z-index: 10500;
+}
+.fcbmodal-content {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -webkit-box-shadow: 0px 1px 6px #666;
+  -moz-box-shadow: 0px 1px 6px #666;
+  box-shadow: 0px 1px 6px #666;
+  background-clip: padding-box;
+  outline: none;
+}
+.fcbmodal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10300;
+  background-color: #555;
+  background-color: rgba(0,0,0,.1);
+  transition: opacity .2s ease;
+  -moz-transition: opacity .2s ease;
+  -webkit-transition: opacity .2s ease;
+  -ms-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+
+  background: rgb(175,175,175);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(175,175,175,1) 0%, rgba(95,95,95,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(175,175,175,1)), color-stop(100%,rgba(95,95,95,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(175,175,175,1) 0%,rgba(95,95,95,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(175,175,175,1) 0%,rgba(95,95,95,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(175,175,175,1) 0%,rgba(95,95,95,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(175,175,175,1) 0%,rgba(95,95,95,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#777777',GradientType=1 );
+
+
+}
+.fcbmodal-backdrop.fcbfade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.fcbmodal-backdrop.fcbfade.fcbin
+{
+  opacity: 0.60;
+  filter: alpha(opacity=60);  
+}
+
+.fcbmodal-backdrop:before
+{
+  content: 'press ESC';
+  font-size: 14px;
+  color: #000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.fcbmodal-header {
+  padding: 16px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: normal;
+  color: #666;
+}
+body .fcbmodal .fcbclose
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0;
+  border: none;
+  font-size: 21px;
+  z-index: 9000;
+  color: #b9b9b9;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+}
+body .fcbmodal .fcbclose:hover
+{
+  color: #9a9a9a;
+  box-shadow: none;
+}
+
+.fcbmodal-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.428571429;
+}
+.fcbmodal-body {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+.fcbmodal-footer {
+  padding: 19px 20px 20px;
+  background-color: #f4f4f4;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.fcbmodal-footer:before,
+.fcbmodal-footer:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.fcbmodal-footer:after {
+  clear: both;
+}
+.fcbmodal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.fcbmodal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.fcbmodal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+@media screen and (min-width: 768px) {
+  .fcbmodal-dialog {
+    left: 50%;
+    right: auto;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .fcbmodal-backdrop:before
+  {
+    content: '';
+  }  
+}

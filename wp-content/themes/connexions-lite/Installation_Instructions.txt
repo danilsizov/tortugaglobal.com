@@ -1,0 +1,55 @@
+/*========= Connexions Lite =========*/
+
+== Copyright and License ==
+Connexions Lite WordPress Theme, Copyright (C) 2015 SketchThemes
+Connexions Lite WordPress theme is licensed under the GPL.
+
+
+== Installation ==
+1. Upload the 'connexions-lite` folder to the `/wp-content/themes/` directory
+
+
+/*========= Theme Features and Documentation =========*/
+
+= How to set Theme Front Page? =
+1. Select "A static page" to show on front, from "Settings -> Reading -> Front page displays"
+2. To Write Front Page Content
+	Go to "Appearance -> Fullscreen Options -> Home Landing Page Section"
+	Add landing page section content here and follow below instructions for setting menu.
+3. To set the Landing Page Navigation
+	Go to "Appearance -> Menus"
+	>>For First Section  :- Create a custom link in Menus and put #section1 in URL and Navigation Label according to you in Link Text.
+	>>For Second Section :- Create a custom link in Menus and put #section2 in URL and Navigation Label according to you in Link Text.
+	>>For Third Section  :- Create a custom link in Menus and put #section3 in URL and Navigation Label according to you in Link Text.
+
+= Where are the Theme Options? and how they Setup Theme?  =
+Go To Appearance -> Connexions Options For Theme Options.
+
+*General Settings:*
+1) Primary Theme Color 	-	Theme primary color reflected directly almost everywhere.
+2) Secondry Theme Color -	Theme secondary color reflected on hover effect and directly on some part.
+3) Favicon 				-	The tiny image that usually shows up in the browser address bar when visiting a site. Prefered sizes 16x16, 32x32, 48x48 in pixels.
+
+*Header Settings:*
+1) Change Logo. 					-	Add logo image from here, replaces the sitetitle and description. Preferred width is 199px and height as per your wish.
+1) Social Follow Icons Seetings.	-	Add the social profile links here
+
+*Header Image Setting :*
+1) Static Background Image.		-	The Header image for Front Page. Prefered size 1600x850 for extra-large-screen or 1200x750.
+
+*Breadcrumb Settings:*
+1) Breadcrumb Holder Background Image & Color.	-	The Breadcrumb background settings for every page and post.
+2) Breadcrumb Color 							-	This changes Bredcrumb text color.
+
+*Home Landing Page Section:*
+Add landing page section content here and follow instructions for menu settings.
+>> For First Section  :- Create a custom link in Menus and put #section1 in URL and Navigation Label according to you in Link Text.
+>> For Second Section :- Create a custom link in Menus and put #section1 in URL and Navigation Label according to you in Link Text.
+>> For Third Section  :- Create a custom link in Menus and put #section1 in URL and Navigation Label according to you in Link Text.
+
+*Footer :*
+1) Enter Your Copyright Text (You can use HTML for links.)
+
+
+= How to translate theme in other language? =
+The Connexions Lite is ready for translation. Translation files are in /languages.
